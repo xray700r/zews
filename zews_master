@@ -6,7 +6,7 @@ These function calls have the purpose of reading the output of the sensors
 connected through the I2C bus or direvtly to the Arduino Uno master.
 
 Created by Moisi Xhaferaj, 05/03/2018.
-Released into the public domain under CC 3.0.
+Released into the public domain.
 
 Part of the original code from:
 SFE_BMP180 library example sketch
