@@ -22,6 +22,7 @@ The HW of the sensors is the only part that has been purchased as in the case of
 5. Hall effect sensor for the Anemometer
 6. Thermocouple for the Pyranometer
 
+
 2. The ZEWS Features:
 
 Version 1.0
