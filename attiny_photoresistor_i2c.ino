@@ -1,4 +1,4 @@
-/* 
+  /* 
 
 Code for the OSWS Light sensor slave 
 
@@ -70,7 +70,7 @@ const byte reg_size = sizeof(i2c_regs);
  
 void requestEvent()
 {  
-  TinyWireS.send(0);//i2c_regs[reg_position]);
+  TinyWireS.send(i2c_regs[reg_position]);
 
   reg_position++;
   if (reg_position >= reg_size)
