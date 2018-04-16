@@ -6,7 +6,7 @@ This function calls have the purpose of reading the output of the LDR
 connected through the analog port and on request send data over I2C to the Arduino Uno master.
 
 Author Moisi Xhaferaj, 29/02/2018.
-Released into the public domain under CC 3.0.
+Released into the public domain.
 
 Original Code Light Sensor on Attiny 85 found at the following source:
 
