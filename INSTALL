@@ -1,0 +1,44 @@
+Installing the Software of the ZEWS Weather Station is simple:
+
+1. Download and install the Arduino IDE.
+
+2. Download the code from the GitHub repo.
+
+3. On the Arduino IDE:
+Add the Zip libraries downloaded from:
+https://github.com/rambo/TinyWire
+https://github.com/BoschSensortec/BMP180_driver
+https://github.com/adafruit/DHT-sensor-library
+
+BMP180_Breakout_Arduino_Library-master.zip
+DHTLib.zip
+TinyWireS.zip
+
+4. Also all the files ending in *sensorsuery.cpp *sensorquery.h of the same sensor must be places in a folder with the same name and zipped. 
+Include all the Zip libraries on the Arduino IDE.
+
+Example:
+
+AT85sensorquery.zip
+BMP180sensorquery.zip
+DHTsensorquery.zip
+LMsensorquery.zip
+
+5. On the Attiny85's upload the respective code for each sensor. You can use Arduino as ISP and the ISP shield to upload your code.
+
+6. On the Arduino UNO master compile and upload the sketch:
+osws_master.ino 
+
+In case all hardware has been set up correctly the output of the serial monitor on the Arduino IDE shall be similar to the following:
+
+REBOOT
+BMP180 init success
+
+Weather Sensor Outputs:
+Temperature[LM35]= 19.53 *C,
+Temperature[DHT11]= 22.00 *C,
+Temperature[BMP180]= 21.96 *C,
+Humidity[DHT11]= 72.00 %RH,
+Pessure[BMP180]absolute= 1002.53 mbar,
+Pessure[BMP180]relative= 1014.86 mbar,
+Luminance= 0 Lux,
