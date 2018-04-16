@@ -1,0 +1,36 @@
+The ZEWS history:
+
+Version 0.0
+
+February 2018 the Open Source Group starts working on the ZEWS as an expanded implementation of the OSWS (Open Source Weather Station) project.
+
+
+Version 1.0
+
+February 2018 the electronic schematics are conceived and design of SW and HW components is already at a good poing.
+
+Vesrion 1.1
+
+March 2018 first prototype is completed with one Arduino Uno I2C Master outputing the main data from the following sensors:
+
+1. Thermometer: Temperature measurement
+2. Hygrometer: Humidity measurement
+3. Barometer: Atmospheric pressure measurement
+4. Lux-meter: Measurement of light 
+
+Sensors 1 to 3 housing is prototyped for testing.
+
+
+Version 1.2
+
+April 2018 Anemometer Wind Speed & Direction are completed as well as the Pyranometer the second prototype and first release of the ZEWS is completed with one Arduino Uno I2C Master outputing the main data from the following sensors:
+
+1. Anemometer: Wind speed and direction
+2. Thermometer: Temperature measurement
+3. Hygrometer: Humidity measurement
+4. Barometer: Atmospheric pressure measurement
+5. Lux-meter: Measurement of light 
+6. Pyranometer: Measurement of incident Sun radiation
+
+ZEWS software is released as a first version to the public on GitHub.
+
