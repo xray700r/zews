@@ -1,0 +1,15 @@
+The following schematics are found under the Hardware Electronics category:
+
+1. Wind speed and direction sensors
+
+Wind vane:
+wind_vane_direction_encoder.pdf
+8to3_encoder_logic.pdf
+
+Cup anemometer:
+
+
+
+2. Sensor Hub/Connection box and overall I2C sensors:
+
+SensorsBoxschematic.pdf
