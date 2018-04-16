@@ -6,7 +6,7 @@ These functions have the purpose of reading through an analogRead the output pin
 connected directrly to the Arduino Uno master.
 
 Created by Moisi Xhaferaj, 05/03/2018.
-Released into the public domain under CC 3.0.
+Released into the public domain.
 
 */
 
