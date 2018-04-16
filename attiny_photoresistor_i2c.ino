@@ -125,15 +125,15 @@ int lightMeter = 0;
   /*
    * On tick value 0, do measurements
    */
-  //if (abs(currentMillis - lastReadout) > MAX_TICK) {
+  if (abs(currentMillis - lastReadout) > MAX_TICK) {
     uint8_t raw_value = analogRead(ADC_PIN);
 
-    //lightMeter = raw_value;// smooth(raw_value, LPF_FACTOR, lightMeter);
+    lightMeter = raw_value;// smooth(raw_value, LPF_FACTOR, lightMeter);
     
-    i2c_regs[0] = 0 >> 8; //lightMeter >> 8;
-    i2c_regs[1] = 0; //lightMeter & 0xFF;
+    i2c_regs[0] = lightMeter >> 8;
+    i2c_regs[1] = lightMeter & 0xFF;
     
     digitalWrite(STATUS_PIN_1, HIGH);
-    //lastReadout = currentMillis;
-  //}
+    lastReadout = currentMillis;
+  }
 }
