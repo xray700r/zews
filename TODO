@@ -1,3 +1,21 @@
+Version 1.0
+
+    Anemometer: Wind speed and direction electro-mechanical
+
+    Thermometer: Temperature measurement
+
+    Hygrometer: Humidity measurement
+
+    Barometer: Atmospheric pressure measurement
+
+    Lux-meter: Measurement of light
+
+    Pyranometer: Measurement of incident Sun radiation
+
+    Pluviometer: Measurement of rainfall accumulation
+
+
+
 Current Status of the sensors Completed:
 
 1. Wind
