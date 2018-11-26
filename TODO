@@ -1,0 +1,21 @@
+Current Status of the sensors Completed:
+
+1. Wind
+-Speed    (HW-Completed/SW-Completed/Calibration-TODO)
+-Direction (HW-Completed/SW-Completed/Calibration-Completed)
+
+2. Atmospheric pressure
+-Barometer   (HW-Completed/SW-Completed/Calibration-Completed)
+
+3. Humidity
+-Hygrometer  (HW-Completed/SW-Completed/Calibration-Completed)
+
+4. Temperature
+-Thermometer   (HW-Completed/SW-Completed/Calibration-Completed)
+
+5. Solar Radiation
+-Luxmeter	(HW-Completed/SW-Completed/Calibration-TODO)
+-Pyranometer   (HW-TODO/SW-Completed/Calibration-TODO)
+
+6. Rain accumulation
+-Pluviometer   (HW-TODO/SW-TODO/Calibration-TODO)
