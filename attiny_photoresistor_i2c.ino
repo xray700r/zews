@@ -1,12 +1,26 @@
   /* 
+  
+  Copyright (C) 2018  Moisi Xhaferaj
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 Code for the OSWS Light sensor slave 
 
 This function calls have the purpose of reading the output of the LDR
 connected through the analog port and on request send data over I2C to the Arduino Uno master.
 
-Author Moisi Xhaferaj, 29/02/2018.
-Released into the public domain.
+Author of modifications to the original Moisi Xhaferaj, 29/02/2018.
 
 Original Code Light Sensor on Attiny 85 found at the following source:
 
