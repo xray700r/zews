@@ -17,7 +17,10 @@ Copyright (C) 2018  Rei Arifi
     
     Author of modifications from original Rei Arifi, 21/06/2018.
     
-    
+    Original Code Light Sensor on Attiny 85 found at the following source:
+
+    Attiny photoresistor i2c:
+    https://github.com/DzikuVx/attiny_photoresistor_i2c
     
     */
 #define MAX_TICK  10000 // 120000
@@ -28,8 +31,8 @@ Copyright (C) 2018  Rei Arifi
 #define LPF_FACTOR 0.5
 
 #include <TinyWireS.h>
-#include <avr/sleep.h>
-#include <avr/wdt.h>
+//#include <avr/sleep.h>
+//#include <avr/wdt.h>
 
 // also
 
