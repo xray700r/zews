@@ -26,10 +26,6 @@ SFE_BMP180 library example sketch
 V10 Mike Grusin, SparkFun Electronics 10/24/2013
 V1.1.2 Updates for Arduino 1.6.4 5/2015
 
-and
-
-https://github.com/DzikuVx/attiny_photoresistor_i2c
-
 */
 
 #include <Wire.h>
