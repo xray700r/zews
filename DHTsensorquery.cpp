@@ -33,12 +33,12 @@ Created by Moisi Xhaferaj, 05/03/2018.
 
 #include <DHTsensorquery.h>
 
-dht DHT;
+dht DHT; // declaring DHT sensor variable
 
 
 void DHTsensorquery(int dhtpin, int dhtdelay, float &hum, float &temp){
 
-int chk = DHT.read11(dhtpin);
+int chk = DHT.read11(dhtpin); // reading from declared pin
 
 //////DHT-11///////  
 hum=DHT.humidity;
