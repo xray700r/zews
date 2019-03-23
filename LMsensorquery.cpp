@@ -35,11 +35,14 @@ void LMsensorquery(int lmpin, int lmdelay, float &temp){
 
 int reading;
 
+// read analog pin value typical 0 to 1024
 reading = analogRead(lmpin);
-float millivolt = ( reading/1024.0)*5000;
-float celsius = millivolt/10;
 
-temp=celsius;
+// calibrating for temperature value from millivolts=(reading/1024.0)*5000 
+float celsius = (reading/1024.0)*50000;
+
+// assigning temperature value to the variable
+temp=celsius; 
 
 //String printstring =  "LM35 TEMPRATURE: "; 
 //printstring = printstring + celsius + " C";
