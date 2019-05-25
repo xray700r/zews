@@ -44,6 +44,6 @@ project as the housing of the sensors and some of the sensors are completely DIY
 
 ### HOW TO BUILD
 
-This system is a simple sensor integration platform. All data is gathered on an Arduino UNO as a I2C Master.
+This system is a simple sensor integration platform. All data is gathered on an Arduino UNO as an I2C Master.
 All other sensors are either directly integrated on the Arduino UNO or hooked up on the I2C bus as slaves. 
 Detailed instructions are uploaded on the GitHub repo.
