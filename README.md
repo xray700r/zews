@@ -19,7 +19,7 @@ The HW of the sensors is the only part that has been purchased as in the case of
 - BMP180 Pressure and Temperature sensor
 - LDR and IR diodes etc for light detection
 - Hall effect sensor for the Anemometer
-- Thermocouple for the Pyranometer
+- Thermocouple for the Pyranometer (TBD)
 
 
 ### The ZEWS Features:
@@ -31,7 +31,7 @@ The HW of the sensors is the only part that has been purchased as in the case of
 - Hygrometer: Humidity measurement
 - Barometer: Atmospheric pressure measurement
 - Lux-meter: Measurement of light 
-- Pyranometer: Measurement of incident Sun radiation
+- Pyranometer: Measurement of incident Sun radiation (TBD)
 
 
 ### Who can build and use
